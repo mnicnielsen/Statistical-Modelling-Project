@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4efbdec10e014519c62d8889,Pizzeria Barbarella,0.9215937306021105,1.0,7.4,86.0,60.0,16.0,0cee06d7d10f7d3162cea03d22b7beed
+5d4103e23c3cf700076593dc,Catoro Cafe,0.929352886405959,,,,,,0cee06d7d10f7d3162cea03d22b7beed
+5b63bc6135d3fc002ccf63e7,Hail Mary's,0.8148665425201738,2.0,,,,,0cee06d7d10f7d3162cea03d22b7beed
+7418f07a52cf4f97a6e57915,Siga Siga,,,,,,,0cee06d7d10f7d3162cea03d22b7beed

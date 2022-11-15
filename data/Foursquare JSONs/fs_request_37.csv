@@ -1,0 +1,3 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4ac379f4f964a520729b20e3,Paul's Place Restaurant & Omelettery,0.9398471446306642,1,8.6,112.0,176.0,41.0,71c064fa93cab5f0b7306e6c923b77c4
+63110083a53d9d13225c47d1,True NOSH,0.8498797330850404,2,,,,,71c064fa93cab5f0b7306e6c923b77c4

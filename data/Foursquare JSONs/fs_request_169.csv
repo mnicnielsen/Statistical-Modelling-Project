@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+578c3c00498ee0c02beb38ec,Strathcona Beer Co,0.9479166666666666,2.0,8.7,69.0,104.0,6.0,b428c0e64d9b9fdb3bf8e85c95ffdf6b
+53bee9ba498ecf83180e97d5,Liquids and Solids,0.9777506207324643,1.0,,,,,b428c0e64d9b9fdb3bf8e85c95ffdf6b
+eb23d06b0c544e45e2cda009,Red Way,,,,,,,b428c0e64d9b9fdb3bf8e85c95ffdf6b
+3d606e1fb82149a9e34dad81,Dim Sum King,,,,,,,b428c0e64d9b9fdb3bf8e85c95ffdf6b

@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+50d4bd11e4b0b55bb4b657a3,Beaucoup Bakery & Cafe,0.9675861266294227,2,9.0,377.0,347.0,95.0,57e928d8c30fab0ebffb3ede850f89d6
+6084a4cf0cccc51c8d96523a,Las Autenticas,0.8702281191806331,1,,,,,57e928d8c30fab0ebffb3ede850f89d6
+5fbc00e8d90bc5545327794b,Antojos y Sabores,0.8179120111731844,1,,,,,57e928d8c30fab0ebffb3ede850f89d6
+4d9cffc2a695721ebd2a080d,Lazy Gourmet,0.9552102731222843,2,,,,,57e928d8c30fab0ebffb3ede850f89d6

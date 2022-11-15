@@ -1,0 +1,9 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4c75baefdb52b1f7c5b979dc,Caffe Cittadella,0.9618443513345748,2.0,8.3,137.0,80.0,27.0,485d4d24c803cfde829ab89699fed833
+4aa843e0f964a5207f5020e3,Cactus Club Cafe Broadway + Ash,0.9753840782122905,3.0,7.4,103.0,94.0,34.0,485d4d24c803cfde829ab89699fed833
+4b16d55ff964a5201dbe23e3,Ebisu on Broadway,0.9325729360645562,2.0,6.6,24.0,38.0,14.0,485d4d24c803cfde829ab89699fed833
+5aecb62e947c050039251eea,Tractor,0.9368986654252017,1.0,,,,,485d4d24c803cfde829ab89699fed833
+370fd338f04b4d28624a0c24,Cactus Club Cafe,,,,,,,485d4d24c803cfde829ab89699fed833
+bc783068835d45254ca5d375,Kamei Sushi Japanese Rstrnt,,,,,,,485d4d24c803cfde829ab89699fed833
+5bc1abd55502495099af78d0,Cafe 86,,,,,,,485d4d24c803cfde829ab89699fed833
+b3f2067af9fe438413d8d0af,Opa Souvlaki,,,,,,,485d4d24c803cfde829ab89699fed833

@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+548bb931498e031a7dad39a6,Tim Hortons,0.958604903786468,1,6.9,63.0,40.0,2.0,5105df3dd0daf4c26980f4134f61e5cc
+4b0e0237f964a520c95323e3,Ahwaz Hookah House,0.9583915270018621,1,6.1,11.0,17.0,6.0,5105df3dd0daf4c26980f4134f61e5cc
+617df7621bea062d56303895,Jang Mo Jib,0.8171942892613284,2,,,,,5105df3dd0daf4c26980f4134f61e5cc
+5d659065ffbacb0008a01cf5,Miss Korea BBQ,0.9621547175667288,2,,,,,5105df3dd0daf4c26980f4134f61e5cc

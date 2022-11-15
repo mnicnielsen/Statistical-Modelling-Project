@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4bbe5ae582a2ef3bf2382bd2,Sushi Coen,0.02294770328988206,2.0,7.8,1.0,8.0,2.0,a6c6df138cbc97b9f81e7ffbbebdde6f
+55515c40498e96daea31c933,Giardino Restaurant,0.9480524518932341,2.0,6.9,16.0,27.0,3.0,a6c6df138cbc97b9f81e7ffbbebdde6f
+3e2c90924eaa41aaceb745d9,Prime Restaurant Canada Inc,,,,,,,a6c6df138cbc97b9f81e7ffbbebdde6f
+b7958cc4f9da459bd62f53b2,Sato Sushi,,,,,,,a6c6df138cbc97b9f81e7ffbbebdde6f

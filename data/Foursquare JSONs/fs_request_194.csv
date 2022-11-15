@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4ace95e0f964a52051d120e3,Temaki Sushi,0.8665813159528243,2.0,7.0,42.0,54.0,27.0,2681455ba2d97283998a806b14d3e95c
+551074d8498ed654c625740e,Yagoto Sushi Dining,0.8634970515207946,2.0,,,,,2681455ba2d97283998a806b14d3e95c
+4c8c0b54ed3ab60c54296421,Evelyn's Coffee Shop,0.8567659838609559,1.0,,,,,2681455ba2d97283998a806b14d3e95c
+a4d710a9780a4e775effb6dd,I.ce Queen,,,,,,,2681455ba2d97283998a806b14d3e95c

@@ -1,0 +1,4 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4ac38331f964a520979b20e3,Corner Cup Coffee House,0.8533325574177529,1,7.3,12.0,13.0,5.0,671ce9e4a92063620f772d2c57f0f3ab
+4abee249f964a5206a9020e3,Hitoe Sushi,0.9037864680322781,2,7.3,33.0,47.0,16.0,671ce9e4a92063620f772d2c57f0f3ab
+5d29827cf5c8330023780aff,Castaway Bar and Kitchen,0.9660536933581626,2,,,,,671ce9e4a92063620f772d2c57f0f3ab

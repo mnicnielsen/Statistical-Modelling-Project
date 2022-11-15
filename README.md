@@ -7,32 +7,24 @@ Investigated following business types within 100 m of every bike station:
 
 - Bars
 - Restaurants
-- Shopping
-- Education
-- Arts and Entertainment
 
-Looked at total numbers of <b><span style="color:red">open and closed</span></b> businesses in each category type
+Looked at businesses attributes available from Foursquare and Yelp for bars and restaurants.
 
-<b><span style="color:red">Key Question: Is the number of open businesses correlated with the proportion of available bikes?</b></span>
+<b><span style="color:red">Key Questions: </b></span>
+- Are attributes of nearby businesses correlated with proportion of available bikes?
+- Is the number of open businesses correlated with the proportion of available bikes?
 
 <br>
 
 ## Process
 ### <b>Step 1: City Bike API</b>
 1. Parsed JSON file
-2. Removed stations with status “offline”, resulting in 240 online bike stations in Vancouver
+2. Removed stations with status “offline” status.
 <br>
 <br>
 
 ### <b>Step 2: Get Data from Foursquare and Yelp APIs</b>
-- Used requests.get() function
-- For each of the Yelp and Foursquare APIs, created a loop to do the following:
-- For each lat/long coordinate:
-    - Look at each of the five chosen business types
-        - Count all businesses
-        - Count open businesses
-    - Append results to list
-- Reshape list into dataframe and merge dataframe with station ids
+![](images/Image1.png)
 
 <br>
 
@@ -48,46 +40,61 @@ Looked at total numbers of <b><span style="color:red">open and closed</span></b>
 <br>
 <br>
 - Created SQLite database as follows:
+    - Businesses Table:
+        - used ‘id’ (automatically assigned by Yelp) as primary key
+<br>
+<br>
     - Bike Stations Table:
         - Used “Station ID” as primary key
+        <br>
+<br>
 
-    - Foursquare Locations Table:
-        - Used “latitude” and “longitude” (combined) as primary key
-        - Used “Station ID” as foreign key
-    link
+    - Intermediary Table (called ‘id_station_ids’:
+        - id and station_id combined as key
+        - id was foreign key linked to businesses table 
+        - station_id was foreign key linked to stations table
 
-![alt](Figure1.png)
+
+![](images/Image4.png)
+
+
 
 ### <b>Step 4: Create Model</b>
-![alt](Figure2.png)
+![alt](images/Image2.png)
 
-- Couldn't find correlations between bikes and businesses
-    - Therefore decided to look at a model of businesses only and create a regression model to predict the number of bars from the number of other types of businesses
-- Dependent variable is number of bars (y)
-- Independent variables (x1, x2, x3, x4, x5):
-    - number of restaurants
-    - number of stores
-    - number of arts and entertainment businesses
-    - number of education businesses
+- No apparent  correlations between bikes and businesses
 
+Create 2 models: 
+
+- Model 1: number of available bikes as a function count of attributes of nearby restaurants and bars?
+    - Dependent variable is Available Proportion of Bikes (%)
+    - Independent variables (x1, x2)
+        - review_count
+        - ratings
+
+- Model 2: number of available bikes as a function of count of nearby restaurants and bars?
+    - Dependent variable is Available Proportion of Bikes (%)
+    - Independent variables (x1)
+        - count of nearby businesses
 
 ## <b>Results</b>
 ### Step 1: City Bike results
 - 240 online stations in Vancouver
 ### Step 2: API Comparison - Foursquare and Yelp
-![alt](Figure3.png)
+![alt](images/Image3.png)
 
 
-- Foursquare had more overall restaurants, so used foursquare data for further analysis
+- Yelp had more overall businesses, so used Yelp data for further analysis
 ### Step 3: Joining and EDA Results
 Histograms:
-![alt](Figure4.png)
+![alt](images/Image5.png)
 
 Correlation Coefficients:
-![alt](Figure5.png)
+![alt](images/Image6.png)
 
-Scatter Plots:
-![alt](Figure6.png)
+Box Plots:
+![alt](images/Image7.png)
+
 
 
 #### <i>Overall EDA Results</i>
@@ -95,10 +102,17 @@ Scatter Plots:
 - Low correlation between total slots and number of total businesses
 - Low correlation between total slots and number of  restaurants
 ### Step 4: Model Results
-![alt](Figure7.png)
+<b>Model 1:
+
+![alt](images/Image8.png)
+
+Model 2:
+
+![alt](images/Image9.png)</b>
 
 ## Challenges 
-- Results were not normally distributed or linearly correlated, so could not apply a model to the combined bike and business data 
+- Results were not normally distributed
+ 
 
 ## Future Goals
 - See how open-ness affects availability of bikes by looking at bike availability at different times

@@ -1,0 +1,4 @@
+fsq_id,name,popularity,price,rating,stats.total_ratings,stats.total_tips,station_id
+4ba6f3aef964a520827939e3,Subway,0.9696229050279329,1,6.4,0.0,0.0,7c17f51469f1a7145455f65ef6afbd87
+4b60ad09f964a52088f329e3,Domino's Pizza,0.9466945996275605,1,,,,7c17f51469f1a7145455f65ef6afbd87
+5ad2551b249623753f85ffb3,Dundas Eat + Drink,0.9632797951582868,2,,,,7c17f51469f1a7145455f65ef6afbd87

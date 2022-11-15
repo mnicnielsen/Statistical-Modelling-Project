@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+539cfd6f498e2eba5818d2e7,Pizzeria Bufala,0.9435715394165115,1.0,8.0,46.0,37.0,13.0,7f091b50fbbd892bf9fb869a64c47120
+4b5f6cd8f964a52090b929e3,White Spot,0.965471756672874,2.0,7.5,36.0,26.0,9.0,7f091b50fbbd892bf9fb869a64c47120
+5b01f0df16fa04003926d021,Comebuy - Kerrisdale,0.488012104283054,,,,,,7f091b50fbbd892bf9fb869a64c47120
+f2e09665c70a43b3fd3ec160,Allison MacDonald,,,,,,,7f091b50fbbd892bf9fb869a64c47120

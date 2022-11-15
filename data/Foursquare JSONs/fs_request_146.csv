@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4aa7d40ff964a5206e4d20e3,Les Faux Bourgeois,0.9308077281191807,2,8.8,122,122,59,08c7a90bf297fde8c1f1156db13987d4
+4f1995afe4b00583e823ffc4,Matchstick Coffee,0.9860917132216015,2,8.8,251,235,53,08c7a90bf297fde8c1f1156db13987d4
+4f21e016e4b0c41c4ffda0ab,The Gluten Free Epicurean,0.46970049658597146,1,8.5,32,24,8,08c7a90bf297fde8c1f1156db13987d4
+4b2e7cddf964a52015e124e3,Lions Den Cafe,0.8392108938547486,2,7.4,30,24,10,08c7a90bf297fde8c1f1156db13987d4

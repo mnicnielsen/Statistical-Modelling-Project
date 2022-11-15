@@ -1,0 +1,5 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+5b7882e95455b2002c6abf1c,Pure Bread,0.952513966480447,1,8.4,13.0,21.0,4.0,0cf6cd1809fa7f510812f5b052f578c4
+5bcacf35364d97002cae03a0,Tacofino Ocho,0.9591286468032278,1,7.8,27.0,21.0,5.0,0cf6cd1809fa7f510812f5b052f578c4
+5158c39fe4b03dbb60d52ad6,Peaceful Restaurant,0.811530105524519,1,7.8,67.0,72.0,19.0,0cf6cd1809fa7f510812f5b052f578c4
+61c2341b7c4aea191063dcdc,Blaze Gourmet Burgers,0.9463066418373681,1,,,,,0cf6cd1809fa7f510812f5b052f578c4

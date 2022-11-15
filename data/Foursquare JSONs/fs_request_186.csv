@@ -1,0 +1,6 @@
+fsq_id,name,popularity,price,rating,stats.total_photos,stats.total_ratings,stats.total_tips,station_id
+4aa74c7bf964a520a34c20e3,Granville Island Brewing,0.986887026691496,2.0,8.7,807.0,511.0,81.0,db51c556fe50ec1deefbc9697c70cb51
+55e4c9f1498ef3f9eda26716,Off the Tracks Bistro,0.9396725636250776,1.0,8.3,42.0,41.0,6.0,db51c556fe50ec1deefbc9697c70cb51
+4aabf3dbf964a520255b20e3,Pedro's Organic Coffee House,0.7941689944134078,1.0,6.3,8.0,15.0,5.0,db51c556fe50ec1deefbc9697c70cb51
+fba2f5052db64d35bcbb4ca8,Agro Cafe Coffee & Roasting House,,,,,,,db51c556fe50ec1deefbc9697c70cb51
+d41f3916b03048d6d35acf34,Artisan Sakemaker at Granville Island,,,,,,,db51c556fe50ec1deefbc9697c70cb51
